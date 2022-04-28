@@ -8,7 +8,7 @@ var ethers = require('ethers');
 // var wallet = new ethers.Wallet(privateKey);
 
 const wallet = ethers.Wallet.createRandom()
-console.log('privateKey:', wallet.privateKey)
-console.log('mnemonic:', wallet.mnemonic.phrase)
-console.log("Address: " + wallet.address);
-console.log("Publickey : " + wallet.publicKey)
+console.log('Private Key: ', wallet.privateKey)
+console.log('mnemonic   : ', wallet.mnemonic.phrase)
+console.log("Address    : ", wallet.address);
+console.log("Publickey  : ", wallet.publicKey)
